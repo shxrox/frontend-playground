@@ -35,11 +35,11 @@ function Products() {
   ]
 
   return (
-    <div className=' pb-[300px] bg-[#3a3a3a]'>
+    <div className='px-20 bg-[#3a3a3a] '>
 
-      <div className=" flex justify-between">
+      <div className=" grid grid-cols-3 ">
         {products.map((product, index) => (
-          <div key={index} className=" px-10 py-20 border rounded-4xl mt-20 bg-white">
+          <div key={index} className="m-[10px] text-center py-20 border rounded-4xl mt-20 bg-white">
             <h1>name :{product.name}</h1>
             <p> discription :{product.price}</p>
             <p>price : {product.price}</p>
