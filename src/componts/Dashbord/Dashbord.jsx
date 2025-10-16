@@ -1,5 +1,6 @@
 import React from 'react'
 import Products from './Products'
+import About from './About'
 
 function Dashbord() {
   return (
@@ -21,6 +22,7 @@ function Dashbord() {
       </div>
       <div>
         <Products />
+        <About />
       </div>
     </div>
   )

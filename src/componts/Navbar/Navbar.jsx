@@ -12,7 +12,7 @@ function Navbar() {
         <div  className=' flex justify-between space-x-7 '>
           <Link data-aos="fade-down" data-aos-duration="500" to="/">Home</Link>
           <Link data-aos="fade-down" data-aos-duration="1000" to="/Products">Products</Link>
-          <Link data-aos="fade-down" data-aos-duration="1500" to="/#">Projects</Link>
+          <Link data-aos="fade-down" data-aos-duration="1500" to="/About">About</Link>
           <Link data-aos="fade-down" data-aos-duration="2000" to="/#">Contact us</Link>
         </div>
       </div>

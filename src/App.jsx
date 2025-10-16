@@ -6,6 +6,7 @@ import Products from "./componts/Dashbord/Products";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import About from "./componts/Dashbord/About";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route element={<RootLayout />}>
           <Route path="/" element={<Dashbord />} />
           <Route path="/Products" element={<Products />} />
+          <Route path="/About" element={<About />} />
         </Route>
 
       </Routes>
